@@ -13,7 +13,7 @@
 -  php artisan migrate
 -  php artisan db:seed
 -  php artisan serve
-
+-  admin url domain.com/login 
 - Admin panel ( email: admin@e.com password: admin@123 )
 
 
