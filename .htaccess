@@ -1,1 +1,9 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^(.*)$ public/$1 [L]
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
 
+<IfModule mod_php5.c>
+php_value allow_url_fopen On
+</IfModule>
