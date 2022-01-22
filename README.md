@@ -9,7 +9,12 @@
 
 ## Installation 
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing)
+-  composer install 
+-  php artisan migrate
+-  php artisan db:seed
+-  php artisan serve
+
+- Admin panel ( email: admin@e.com password: admin@123 )
 
 
 
