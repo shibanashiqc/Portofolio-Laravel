@@ -85,7 +85,7 @@
           <div class="form-group">
             <label>Select Visit URL ( true/false )</label>
             <select name="visit" class="form-control">
-              <option value="">True</option>
+              <option value="true">True</option>
               <option value="disabled"> False </option>
 
             </select>
@@ -94,7 +94,7 @@
         <div class="form-group">
             <label>Select Repository Visit URL ( true/false )</label>
             <select name="rep_visit" class="form-control">
-              <option value="">True</option>
+              <option value="true">True</option>
               <option value="disabled"> False </option>
 
             </select>
