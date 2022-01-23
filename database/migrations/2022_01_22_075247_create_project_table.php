@@ -17,12 +17,12 @@ class CreateProjectTable extends Migration
             $table->id();
             $table->string('name');
             $table->text('description');
-            $table->string('repo_url');
-            $table->string('link');
+            $table->string('repo_url')->nullable();
+            $table->string('link')->nullable();
             $table->string('img');
-            $table->string('visit');
+            $table->string('visit')->nullable();
             $table->string('lang');
-            $table->string('rep_visit');
+            $table->string('rep_visit')->nullable();
             $table->timestamps();
         });
     }
