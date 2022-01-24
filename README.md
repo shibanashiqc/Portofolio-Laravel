@@ -10,9 +10,9 @@
 ## Installation 
 
 -  composer install 
--  php artisan migrate
 -  rename .env.example to .env 
 -  php artisan key:generate
+-  php artisan migrate
 -  php artisan db:seed
 -  php artisan serve
 -  admin url domain.com/login 
